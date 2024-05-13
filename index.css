@@ -1,0 +1,58 @@
+
+.button{
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.button button{
+    height: 70px;
+    width: 70px;
+    border-radius: 10%;
+    border: none;
+    background-color: rgb(27, 130, 248);
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.mainContainer{
+    background-color: black;
+    width: 310px;
+    padding: 15px
+    
+}
+input{
+    padding: 20px;
+    width: 87.5%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+.button2{
+    display: grid;
+    grid-template-columns: 147px 67.2px 70px 1fr;
+    gap: 13px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(0 0 40%);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.button2 .zero{
+    width: 150px;
+    background-color: orange;
+    border-radius: 20px;
+    border: none;
+
+}
+.button .colour{
+    background-color: white;
+}
