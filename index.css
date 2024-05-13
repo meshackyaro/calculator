@@ -13,7 +13,7 @@
     background-color: rgb(27, 130, 248);
     font-size: 18px;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 .mainContainer{
     background-color: black;
@@ -54,5 +54,5 @@ input{
 
 }
 .button .colour{
-    background-color: white;
+    background-color: rgb(27, 130, 248);
 }
