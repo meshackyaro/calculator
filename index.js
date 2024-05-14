@@ -2,7 +2,7 @@ const result = document.getElementById("result")
 function addToInput(number){
     result.value += number;
 }
-function clear(){
+function clearInput(){
     result.value = "";
 }
 function calculate(){
